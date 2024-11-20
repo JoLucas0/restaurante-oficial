@@ -28,6 +28,7 @@ public class RestauranteController {
         return restauranteService.salvarRestaurante(restaurante);
     }
 
+
     @GetMapping
     public List<Restaurante> listar() {
         return restauranteService.listarRestaurantes();
