@@ -28,6 +28,8 @@ public class RestauranteController {
         return restauranteService.salvarRestaurante(restaurante);
     }
 
+                            //TESTANDO O GIT GALERA, TESTE TBM E ESCREVA ABAIXO COM O NOME - BRENDO
+                            // TESTANDO 2
 
     @GetMapping
     public List<Restaurante> listar() {
